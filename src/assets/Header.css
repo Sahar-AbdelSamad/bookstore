@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5%;
+  margin: 2%;
+  border-radius: 2%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:first-child {
+  font-size: 1.5rem;
+  color: #1395ff;
+}
