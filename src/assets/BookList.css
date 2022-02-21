@@ -1,0 +1,43 @@
+.book-list {
+  background-color: #fafafa;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+  padding-top: 2%;
+}
+
+.book li {
+  list-style-type: none;
+  background-color: white;
+  border: 1px solid #fafafa;
+  margin: 0.5% 5%;
+}
+
+hr {
+  color: #fafafa;
+  margin: 0 5%;
+}
+
+.form {
+  margin: 2% 5%;
+  display: grid;
+  grid-template-columns: 50% 26% 20%;
+  gap: 2%;
+}
+
+.add-book {
+  margin: 2% 5%;
+  color: rgba(0, 0, 0, 0.582);
+}
+
+.submit {
+  padding: 8px 20px;
+  background-color: #0290ff;
+  color: white;
+  border: none;
+  border-radius: 3%;
+}
