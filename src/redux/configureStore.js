@@ -1,5 +1,6 @@
 import { combineReducers, createStore, applyMiddleware } from 'redux';
 import logger from 'redux-logger';
+import { composeWithDevTools } from 'redux-devtools-extension';
 import booksReducer from './books/books';
 
 const reducer = combineReducers({
@@ -8,7 +9,6 @@ const reducer = combineReducers({
 
 const store = createStore(
   reducer,
-  applyMiddleware(logger),
+  composeWithDevTools(applyMiddleware(logger)),
 );
-
 export default store;
