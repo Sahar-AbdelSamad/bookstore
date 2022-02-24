@@ -1,20 +1,24 @@
 import '../assets/BookList.css';
 import { useSelector } from 'react-redux';
+import { useEffect } from 'react';
 import Book from './Book';
 import CreateBook from './CreateBook';
+import { fetchBooks } from '../redux/books/books';
 
 const Books = () => {
   const books = useSelector((state) => state.booksReducer);
+  useEffect(() => {
+    fetchBooks();
+  }, [books]);
 
   return (
     <div className="book-list">
       <ul className="book">
         {books.map((book) => (
           <Book
-            key={book.id}
-            id={book.id}
+            key={book.item_id}
+            id={book.item_id}
             title={book.title}
-            author={book.author}
             category={book.category}
           />
         ))}
