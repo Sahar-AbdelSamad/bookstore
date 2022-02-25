@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-You can see [the app live here](https://sahar-abdelsamad.github.io/bookstore/)
+You can see [the app live here](https://bookstore-sahar.netlify.app/)
 
 ## Setup
 
