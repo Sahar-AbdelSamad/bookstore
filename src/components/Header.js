@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-key */
 import { Link } from 'react-router-dom';
 import '../assets/Header.css';
 import { CgProfile } from 'react-icons/cg';

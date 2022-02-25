@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-key */
 import '../assets/BookList.css';
 import { useSelector } from 'react-redux';
 import { useEffect } from 'react';
