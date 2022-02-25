@@ -2,7 +2,13 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> The Bookstore is a website that allow us to `Display a list of books`, `Add a new book` and `Remove a selected book`.
+> The Bookstore is a React-Redux application connected to an existing API to create and remove books in a remote server. Users can **Display the list of books**, **Add** and **Remove a selected book**.
+
+![screenshot](./Screenshot.gif)
+
+## Live Demo
+
+You can see [the app live here](https://sahar-abdelsamad.github.io/bookstore/)
 
 ## Setup
 
@@ -17,7 +23,7 @@ $ cd bookstore
 
 ```bash
 $ npm install
-$ npm run start # this will make webpack watching for your changes in code
+$ npm run start
 ```
 
 ## Built With
@@ -27,6 +33,7 @@ $ npm run start # this will make webpack watching for your changes in code
 - Webpack
 - JavaScript
 - CSS
+- API
 
 ## Authors
 
