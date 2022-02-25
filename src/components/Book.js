@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { CircularProgressbar } from 'react-circular-progressbar';
